@@ -13,16 +13,7 @@ function showMovieInfo(movie) {
   axios.get(`http://www.omdbapi.com/?t=${movie}&y=&plot=short&apikey=trilogy`).then(
     function (response) {
       //show
-      // DataTransferItemListYear
-      // IMDB imdbRating
-      // Rotten tomatoes imdbRating
-      // Country where the movie was produced
-      // language 
-      // plot 
-      // actors 
-      console.log(response.data);
-
-      console.log("\nThe movie's rating is: " + response.data.imdbRating);
+      console.log(`\nMovie Title: ${response.data.Title} \nYear: ${response.data.Year}\nRating: ${response.data.imdbRating}\nRotten Tomatoes Rating: ${response.data.Ratings[1].Value}\nCountry: ${response.data.Country}\nLanguage:${response.data.Language}\nPlot: ${response.data.Plot}\nActors: ${response.data.Actors}\n`);
     }
   );
 }
@@ -32,16 +23,15 @@ function showConcerts(artist) {
 
     axios.get(`https://rest.bandsintown.com/artists/${artist}/events?app_id=codingbootcamp`).then(
       function (response) {
-        //show
-        //Name of venue
-        //venue location
-        //date of the event in MM/DD/YYYY format
 
-        console.log("Concerts: \n");
-        console.log(response.data);
+        console.log("\nConcerts: \n");
+       // console.log(response.data);
 
-        // array.forEach(event => {
-        // });
+        var concerts = response.data;
+        concerts.forEach(event => {
+          //var eventDate = moment((event.datetime, "MM/DD/YYYY");
+          console.log(` ${event.venue.name} - ${event.venue.city}, ${event.venue.region}\tDate: - ${event.datetime}\n`); 
+        });
       }
     );
   } else {
@@ -55,16 +45,6 @@ function showSong(song) {
     song = "The Sign";
     console.log("\nNo song provided, showing results for The Sign by Ace of Base\n");
   }
-
-  // axios.get(`https://accounts.spotify.com/authorize?client_id=${keys.spotify.id}&response_type=code&redirect_uri=https%3A%2F%2Fexample.com%2Fcallback&scope=user-read-private%20user-read-email&state=34fFs29kd09`).then(
-  //     function (response) {
-       
-
-
-  //       console.log(response);
-
-  //     }
-  //   );
 
   //call spotify api - authenticate and then call 
 
@@ -110,8 +90,5 @@ function performAction(instruction, data) {
       break;
   }
 }
-
-//var data = process.argv.slice(3).join(" ");
-//console.log(`instrunction: ${process.argv[2]}, data: ${data}`);
 
 performAction(process.argv[2], process.argv.slice(3).join(" "));
