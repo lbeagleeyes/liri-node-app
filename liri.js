@@ -2,7 +2,11 @@ require("dotenv").config();
 var axios = require("axios");
 var keys = require("./keys.js");
 var fs = require("fs");
-//var spotify = new Spotify(keys.spotify);
+var Spotify = require('node-spotify-api');
+var spotify = new Spotify({
+  id: keys.spotify.id,
+  secret: keys.spotify.secret
+});
 
 function showMovieInfo(movie) {
   if (movie == "") {
@@ -45,6 +49,14 @@ function showSong(song) {
     song = "The Sign";
     console.log("\nNo song provided, showing results for The Sign by Ace of Base\n");
   }
+
+  spotify.search({ type: 'track', query: song }, function(err, data) {
+    if (err) {
+      return console.log('Error occurred: ' + err);
+    }
+   
+  console.log(JSON.stringify(data)); 
+  });
 
   //call spotify api - authenticate and then call 
 
