@@ -1,7 +1,7 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "search for shows or actors",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/lbeagleeyes/liri-node-app.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "laura cassie and andrew",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lbeagleeyes/liri-node-app/issues"
@@ -20,6 +20,9 @@
   "dependencies": {
     "axios": "^0.18.0",
     "dotenv": "^7.0.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0",
     "node-spotify-api": "^1.1.1"
-  }
+  },
+  "devDependencies": {}
 }
