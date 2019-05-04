@@ -17,7 +17,7 @@
 
 *All instructions results are saved in log.txt
 
-*[See Demo] (liri-node-app-demo.webm)
+[See Demo] (https://drive.google.com/file/d/19Hd_p0gSkzqwje-ASW-JGUoF5jKktmTr/view?usp=sharing)
 
 
 
