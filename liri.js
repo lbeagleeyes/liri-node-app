@@ -35,7 +35,7 @@ function showConcerts(artist) {
         var concerts = response.data;
         concerts.forEach(event => {
           var eventDate = moment(event.datetime).format("MM/DD/YYYY");
-          writeToTxt(`\n${event.venue.name} - ${event.venue.city}, ${event.venue.region}\t\tDate: - ${eventDate}`);
+          writeToTxt(`${eventDate} - ${event.venue.name} @ ${event.venue.city}, ${event.venue.region}`);
         });
       }
     );
@@ -57,13 +57,10 @@ function showSong(song) {
     }
 
     var tracksFound = data.tracks.items;
-    writeToTxt("\nTracks found:\n");
+    writeToTxt("\nTracks found:");
     for (var i = 0; i < tracksFound.length; i++) {
 
-      writeToTxt(`\nArtists: ${getArtists(tracksFound[i].artists)}
-                  \nPreview URL: ${tracksFound[i].preview_url != null?tracksFound[i].preview_url: ""}
-                  \nSong Name: ${tracksFound[i].name}
-                  \nAlbum Name: ${tracksFound[i].album.name}\n`);
+      writeToTxt(`\nArtists: ${getArtists(tracksFound[i].artists)}\nPreview URL: ${tracksFound[i].preview_url != null?tracksFound[i].preview_url: ""}\nSong Name: ${tracksFound[i].name}\nAlbum Name: ${tracksFound[i].album.name}`);
 
     }
   });
