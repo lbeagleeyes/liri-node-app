@@ -1564,3 +1564,17 @@ Country: New Zealand, USA
 Language:English, Sindarin
 Plot: A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.
 Actors: Alan Howard, Noel Appleby, Sean Astin, Sala Baker
+
+Instruction not supported please enter one of the follwing options:
+ concert-this 
+ spotify-this-song 
+ movie-this 
+ do-what-it-says 
+
+Concerts for colin hay: 
+06/01/2019 - Largo At the Coronet @ Los Angeles, CA06/08/2019 - Red Rocks Ampitheatre @ Morrison, CO06/02/2019 - Largo At the Coronet @ Los Angeles, CA06/21/2019 - Shepherds Bush Empire (Men At Work) @ London, 06/20/2019 - Academy 2 (Men At Work) @ Manchester, 06/23/2019 - Q Factory (Men At Work) @ Nieuw-amsterdam, 06/24/2019 - Grosse Freiheit (Men At Work) @ Hamburg-nord, 06/25/2019 - Train (Men At Work) @ Aarhus, 06/26/2019 - Rockefeller (Men At Work) @ Oslo, 06/28/2019 - Pustervik (Men At Work) @ Gothenburg, 06/29/2019 - KB (Men At Work) @ Malmo, 06/30/2019 - Amager Bio (Men At Work) @ Copenhagen, 07/04/2019 - Huxleys (Men At Work) @ Berlin-altglienicke, 07/03/2019 - E-Werk (Men At Work) @ Koln, 07/06/2019 - Parkbühne (Men At Work) @ Leipzig-thekla, 07/07/2019 - Capitol (Men At Work) @ Hannover, 07/08/2019 - Muffathale (Men At Work) @ Munich, 07/09/2019 - Wizemann (Men At Work) @ Stuttgart, 07/10/2019 - Teatro Dal Verme (Men At Work) @ Milan, 08/01/2019 - The Colosseum at Caesars Windsor (with Ringo Starr) @ Saint-georges-de-windsor, 08/03/2019 - Ravinia Festival (with Ringo Starr) @ Highland Park, IL08/04/2019 - Ravinia Festival (with Ringo Starr) @ Highland Park, IL08/06/2019 - Durham Performing Arts Center (with Ringo Starr) @ Durham, NC08/07/2019 - Ryman Auditorium (with Ringo Starr) @ Nashville, TN08/08/2019 - Ryman Auditorium (with Ringo Starr) @ Nashville, TN08/10/2019 - Wolf Trap National Park for the Performing Arts (with Ringo Starr) @ Vienna, VA08/11/2019 - Wolf Trap National Park for the Performing Arts (with Ringo Starr) @ Vienna, VA08/13/2019 - Berglund Center Coliseum (with Ringo Starr) @ Roanoke, VA08/14/2019 - The Met Philadelphia (with Ringo Starr) @ Philadelphia, PA08/16/2019 - Bethel Woods Center For The Arts (with Ringo Starr) @ Bethel, NY08/17/2019 - Long Island Community Hospital Amphitheater (with Ringo Starr) @ Selden, NY08/18/2019 - The Rooftop at Pier 17 (with Ringo Starr) @ New York, NY08/20/2019 - State Farm Center (with Ringo Starr) @ Champaign, IL08/22/2019 - Mystic Lake Casino Hotel (with Ringo Starr) @ Prior Lake, MN08/23/2019 - Harrah's Council Bluffs Hotel & Casino (with Ringo Starr) @ Council Bluffs, IA08/25/2019 - Santa Fe Opera House (with Ringo Starr) @ Santa Fe, NM08/26/2019 - Celebrity Theatre (with Ringo Starr) @ Phoenix, AZ08/28/2019 - Paramount Theatre (with Ringo Starr) @ Oakland, CA08/30/2019 - Thunder Valley Casino Resort (with Ringo Starr) @ Lincoln, CA08/31/2019 - Vina Robles Amphitheatre (with Ringo Starr) @ Paso Robles, CA09/01/2019 - The Greek Theatre (with Ringo Starr) @ Los Angeles, CA
+Instruction not supported please enter one of the follwing options:
+ concert-this 
+ spotify-this-song 
+ movie-this 
+ do-what-it-says 
