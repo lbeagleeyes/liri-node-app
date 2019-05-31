@@ -7,18 +7,18 @@
 3. movie-this **Movie Name**
 4. do-what-it-says
 
-* concert-this will search the Bands in Town Artist Events API for the artist/band entered and diplay the following information for all the concerts found: 
+* **concert-this** will search the Bands in Town Artist Events API for the artist/band entered and diplay the following information for all the concerts found: 
     1. date
     2. name of the venue
     3. location 
 
-* spotify-this-song will use node-spotify-api package in order to retrieve song information from the Spotify API. It will display the following information for all the songs found that match the entry
+* **spotify-this-song** will use node-spotify-api package in order to retrieve song information from the Spotify API. It will display the following information for all the songs found that match the entry
     1. artist(s)
     2. song's name
     3. preview link of the song from spotify
     4. album name 
 
-* movie-this will use the imdb api to retrieve and show the following information: 
+* **movie-this** will use the imdb api to retrieve and show the following information: 
     1. Title 
     2. year 
     3. imdb rating
@@ -28,7 +28,7 @@
     7. plot
     8. actors 
 
-* do-what-it-says will run the instruction in the file *random.txt* (in the example is spotify-this-song for "I want it that way")
+* **do-what-it-says** will run the instruction in the file *random.txt* (in the example is spotify-this-song for "I want it that way")
 
 * All instructions results are saved in *log.txt*
 
